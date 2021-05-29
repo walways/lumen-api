@@ -1,0 +1,43 @@
+{
+    "name": "laravel-lang/lang",
+    "description": "Languages for Laravel",
+    "keywords": ["laravel", "languages", "lpm", "lang"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laravel-Lang Team",
+            "homepage": "https://github.com/Laravel-Lang"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Laravel-Lang/lang/issues",
+        "source": "https://github.com/Laravel-Lang/lang"
+    },
+    "suggest": {
+        "overtrue/laravel-lang": "Command to add languages in your project",
+        "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+        "andrey-helldar/laravel-lang-publisher": "Easy installation and update of translation files for your project"
+    },
+    "require": {
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "php": "^8.0",
+        "andrey-helldar/pretty-array": "^2.3",
+        "andrey-helldar/support": "^3.4",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelLang\\Lang\\": "app/main",
+            "Tests\\": "app/tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
